@@ -1,0 +1,59 @@
+{
+  "evaluated_at": "2026-05-27 21:14:19",
+  "batch_id": 1,
+  "learner_code": "L2026_STAGE1_001",
+  "db_metrics": {
+    "learner_profile": [
+      11,
+      "L2026_STAGE1_001",
+      "ready_for_training"
+    ],
+    "batch_progress": [
+      1,
+      11,
+      "completed",
+      21,
+      21,
+      0,
+      7,
+      7,
+      65000
+    ],
+    "personal_model": [
+      1,
+      11,
+      1,
+      "v20260527_205613",
+      "trained",
+      "outputs/personal_model_batch1_v20260527_205613.pkl"
+    ],
+    "personal_model_metrics": [
+      [
+        "test",
+        1.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "system_metrics": [
+      21,
+      0.0006261333333333332,
+      4874.430721288485,
+      0.0,
+      21,
+      21,
+      21
+    ],
+    "inference_count_batch": 123,
+    "alert_count_batch": 1
+  },
+  "intervention_benchmark": {
+    "iterations_requested": 120,
+    "iterations_processed": 120,
+    "avg_inference_ms": 117.19995833312471,
+    "p95_inference_ms": 189.27850003819913,
+    "total_elapsed_ms": 14064.345400081947,
+    "should_alert_count": 120,
+    "suppressed_count": 120
+  }
+}
